@@ -125,3 +125,18 @@ h1 span,h2 span{color:var(--cyan)}
 }
 @media(max-width:700px){.container{width:min(100% - 32px,560px)}.nav-wrap{min-height:72px}.brand img{width:165px}.menu-toggle{display:block}.main-nav{display:none;position:absolute;top:71px;left:0;right:0;padding:18px 22px 24px;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 15px 25px rgba(23,55,93,.08);flex-direction:column;align-items:stretch;gap:0}.main-nav.open{display:flex}.main-nav a{padding:12px 5px}.main-nav .nav-cta{text-align:center;margin-top:8px;padding:12px}.hero{padding:55px 0 65px}.hero-grid{grid-template-columns:1fr;gap:38px}h1{font-size:clamp(2.5rem,12vw,3.7rem)}.hero-lead{font-size:1rem}.hero-visual{padding:5px 8px 28px}.photo-hero{min-height:280px}.floating-card{left:-3px;bottom:0;padding:12px 14px}.trust-grid{grid-template-columns:1fr;gap:17px}.trust-grid>div{justify-content:flex-start}.section{padding:70px 0}.section-heading{margin-bottom:32px}.service-grid{grid-template-columns:1fr;gap:13px}.service-card{padding:23px}.service-card p{min-height:0}.about-grid,.schedule-grid,.location-grid{grid-template-columns:1fr;gap:38px}.about-photos{min-height:340px}.photo-large{right:48px;bottom:25px}.photo-small{height:145px;width:52%}.hours-card{padding:22px 18px}.hours-row{font-size:.82rem;gap:12px}.hours-row strong{max-width:55%}.final-cta-inner{align-items:flex-start;flex-direction:column}.button-white{white-space:normal}.map-placeholder{min-height:260px}.whatsapp-float{right:15px;bottom:15px;width:50px;height:50px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+
+
+/* Fotografías reales de Lizaga Lab */
+.photo-placeholder {
+  display: block;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.photo-hero,
+.photo-large,
+.photo-small {
+  width: 100%;
+}
