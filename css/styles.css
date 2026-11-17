@@ -87,5 +87,41 @@ h1 span,h2 span{color:var(--cyan)}
 .footer-inner p{font-size:.85rem;margin:0 0 8px}.footer-inner small{font-size:.75rem;color:#8fa4b7}
 .whatsapp-float{position:fixed;right:22px;bottom:22px;z-index:15;width:54px;height:54px;border-radius:50%;display:grid;place-items:center;background:#20bd68;color:#fff;font-weight:800;font-size:1.2rem;box-shadow:0 8px 25px rgba(0,0,0,.2);border:3px solid #fff}
 @media(max-width:900px){.hero-grid{gap:35px}.about-grid,.schedule-grid,.location-grid{gap:42px}.main-nav{gap:18px}.service-grid{grid-template-columns:repeat(2,1fr)}}
+
+/* Redes sociales del pie de página */
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 22px;
+  width: 100%;
+  margin: 12px 0 18px;
+}
+
+.footer-socials a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.footer-socials a:hover {
+  color: #159ccb;
+}
+
+/* Icono del botón flotante de WhatsApp */
+.whatsapp-float {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.whatsapp-float svg {
+  display: block;
+  flex-shrink: 0;
+}
 @media(max-width:700px){.container{width:min(100% - 32px,560px)}.nav-wrap{min-height:72px}.brand img{width:165px}.menu-toggle{display:block}.main-nav{display:none;position:absolute;top:71px;left:0;right:0;padding:18px 22px 24px;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 15px 25px rgba(23,55,93,.08);flex-direction:column;align-items:stretch;gap:0}.main-nav.open{display:flex}.main-nav a{padding:12px 5px}.main-nav .nav-cta{text-align:center;margin-top:8px;padding:12px}.hero{padding:55px 0 65px}.hero-grid{grid-template-columns:1fr;gap:38px}h1{font-size:clamp(2.5rem,12vw,3.7rem)}.hero-lead{font-size:1rem}.hero-visual{padding:5px 8px 28px}.photo-hero{min-height:280px}.floating-card{left:-3px;bottom:0;padding:12px 14px}.trust-grid{grid-template-columns:1fr;gap:17px}.trust-grid>div{justify-content:flex-start}.section{padding:70px 0}.section-heading{margin-bottom:32px}.service-grid{grid-template-columns:1fr;gap:13px}.service-card{padding:23px}.service-card p{min-height:0}.about-grid,.schedule-grid,.location-grid{grid-template-columns:1fr;gap:38px}.about-photos{min-height:340px}.photo-large{right:48px;bottom:25px}.photo-small{height:145px;width:52%}.hours-card{padding:22px 18px}.hours-row{font-size:.82rem;gap:12px}.hours-row strong{max-width:55%}.final-cta-inner{align-items:flex-start;flex-direction:column}.button-white{white-space:normal}.map-placeholder{min-height:260px}.whatsapp-float{right:15px;bottom:15px;width:50px;height:50px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
